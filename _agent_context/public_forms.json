@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "stammdaten",
+      "app_id": "69f07f61282730cf2b912ea7",
+      "path": "/rest/apps/69f07f61282730cf2b912ea7/records",
+      "allowed_fields": [
+        "kunden_csv",
+        "ansprechpartner_csv",
+        "artikel_csv",
+        "bezeichnung",
+        "stand_datum"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Stammdaten — Formular"
+    },
+    {
+      "entity": "angebotsanfrage",
+      "app_id": "69f07f65d4576b77d41e08cc",
+      "path": "/rest/apps/69f07f65d4576b77d41e08cc/records",
+      "allowed_fields": [
+        "ergebnis_json",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Angebotsanfrage — Formular"
+    }
+  ]
+}

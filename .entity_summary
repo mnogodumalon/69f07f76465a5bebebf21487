@@ -1,0 +1,3 @@
+- Stammdaten (stammdaten): kunden_csv[string/textarea], ansprechpartner_csv[string/textarea], artikel_csv[string/textarea], bezeichnung[string/text], stand_datum[date/date]
+- Angebotsanfrage (angebotsanfrage): stammdaten_ref[applookup/select], anfrage_pdf[file], ergebnis_json[string/textarea], notizen[string/textarea]
+  → stammdaten_ref links to app_id 69f07f61282730cf2b912ea7
